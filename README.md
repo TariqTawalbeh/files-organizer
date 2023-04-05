@@ -1,13 +1,13 @@
 # Copy Text Files to Language Subfolders
 
-This script is used to copy text files to subfolders based on their language. The script takes a directory containing text files as input, then creates subfolders based on the language of the files and copies them to the appropriate subfolder.
+This script is used to copy text files to subfolders based on their language. The script takes a directory containing text files as input, then creates subfolders based on the language of the files and copies them to your output directory each with appropriate subfolder.
 The files names in the format [language]-[number].txt, for example: arabic-55.txt
 
 ## Usage
 
 To use this script, you can run it from the command line with the following arguments:
 
-python main.py <input_path> <output_path> [-e EXTENSION] [-s SEPARATOR]
+`python main.py <input_path> <output_path> [-e EXTENSION] [-s SEPARATOR]`
 
 
 - `input_path`: Path to the input directory containing text files.
@@ -17,7 +17,7 @@ python main.py <input_path> <output_path> [-e EXTENSION] [-s SEPARATOR]
 
 For example:
 
-python main.py /path/to/input/dir /path/to/output/dir -e .txt -s -
+`python main.py /path/to/input/dir /path/to/output/dir -e .txt -s -`
 
 
 ## Installation
