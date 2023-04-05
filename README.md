@@ -31,7 +31,7 @@ For example:
 
 
 
-4. `git checkout dev`
+4. if any issues happend on main, please check the dev branch: `git checkout dev`
 
 ## Requirements
 This script requires Python 3.x and does not use any external libraries.
