@@ -16,6 +16,7 @@ class FileCopier:
         """
         buffer_size = 8192 # Set buffer size to 8KB
         counter = 0
+        
         for root, dirs, files in os.walk(self.input_dir_path):
             for filename in files:
                 if self.parser.validate_file_name(filename):
